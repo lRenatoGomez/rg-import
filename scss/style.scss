@@ -1,3 +1,61 @@
 @import "_variables.scss";
 
+
 .body{background-color: $color-background ;}
+
+.nombre{
+    font-family: 'Lora', serif;
+    font-size: 35px;
+}
+
+.nav{
+    list-style: none;
+    background-color: $color-background2;
+
+}
+
+.menu{ color: $color-white;}
+
+
+.raptor{align-items: $aling;}
+
+
+.navbar{margin-bottom: 1%;}
+
+
+.infobarra{@include size (100%, 250px); }
+
+
+.sectioninfo{
+    background-color: $color-white;
+    justify-content: $aling;
+    margin-top: 50px;
+}
+
+.container-autos{margin-top: 180px;}
+
+.redes {font-size: 2rem;}
+
+.footer{
+    background-color: $color-nav-foot;
+    color: $color-white;
+    @include size (null, 350px);
+    padding-bottom: 10px;
+}
+
+.auto0km{
+    background-color: $color-white;
+    margin-top: 25px;
+    border: 1px solid black;
+    @include size (85%, null);
+    margin-left: 7.5%;
+}
+
+.img-card{@include size(100%, 934px);}
+
+.form{
+    text-align: $aling;
+    background-color: #bae8e8;
+}
+
+.h1form{ font-family: 'Lora', serif; ;}
