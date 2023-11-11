@@ -1,14 +1,14 @@
 @import "_variables.scss";
 
 
-.body{background-color: $color-background ;}
+body{background-color: $color-background ;}
 
 .nombre{
     font-family: 'Lora', serif;
     font-size: 35px;
 }
 
-.nav{
+nav{
     list-style: none;
     background-color: $color-background2;
 
@@ -36,7 +36,7 @@
 
 .redes {font-size: 2rem;}
 
-.footer{
+footer{
     background-color: $color-nav-foot;
     color: $color-white;
     @include size (null, 350px);
@@ -51,7 +51,11 @@
     margin-left: 7.5%;
 }
 
-.img-card{@include size(100%, 934px);}
+.img-card{@include size(100%, 100%);}
+
+.precio{font-weight: bold;}
+
+.img-card-mini{@include size(100%, 934px)}
 
 .form{
     text-align: $aling;
