@@ -8,13 +8,12 @@ body{background-color: $color-background ;}
     font-size: 35px;
 }
 
-nav{
+.menu{
     list-style: none;
-    background-color: $color-background2;
+    background-color: $color-nav-foot;
+    color:white;
 
 }
-
-.menu{ color: $color-white;}
 
 
 .raptor{align-items: $aling;}
@@ -55,13 +54,14 @@ footer{
 
 .precio{font-weight: bold;}
 
-.img-card-mini{@include size(100%, 934px)}
+.img-card-mini{@include size(98%, 934px)}
 
 .form{
     text-align: $aling;
     background-color: #bae8e8;
+
 }
 
 .h1form{ font-family: 'Lora', serif; ;}
 
-
+@import "_animations.scss";
