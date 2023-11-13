@@ -1,0 +1,10 @@
+@mixin size ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+$color-nav-foot: #272643;
+$color-background: #e3f6f5;
+$color-background2: #2c698d;
+$color-white: #ffffff;
+$aling: center;
