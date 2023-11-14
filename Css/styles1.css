@@ -7,13 +7,10 @@ body {
   font-size: 35px;
 }
 
-nav {
-  list-style: none;
-  background-color: #2c698d;
-}
-
 .menu {
-  color: #ffffff;
+  list-style: none;
+  background-color: #272643;
+  color: white;
 }
 
 .raptor {
@@ -68,7 +65,7 @@ footer {
 }
 
 .img-card-mini {
-  width: 100%;
+  width: 98%;
   height: 934px;
 }
 
@@ -79,6 +76,16 @@ footer {
 
 .h1form {
   font-family: "Lora", serif;
+}
+
+.tarj1 {
+  transition: all 0.3s !important;
+}
+
+.tarj1:hover {
+  box-shadow: 10px 5px 5px -4px rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 10px 5px 5px -4px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 10px 5px 5px -4px rgba(0, 0, 0, 0.52);
 }
 
 /*# sourceMappingURL=styles1.css.map */
