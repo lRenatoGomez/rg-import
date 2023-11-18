@@ -33,7 +33,10 @@ body{background-color: $color-background ;}
 
 .container-autos{margin-top: 180px;}
 
-.redes {font-size: 2rem;}
+.redes {font-size: 2rem;
+        color: $color-white;
+        &:hover{color: $color-background2;}
+}
 
 footer{
     background-color: $color-nav-foot;
@@ -44,13 +47,23 @@ footer{
 
 .auto0km{
     background-color: $color-white;
-    margin-top: 25px;
-    border: 1px solid black;
+    margin-top: 47px;
+
+    border-radius: 29px 29px 10px 10px;
+    -webkit-border-radius: 29px 29px 10px 10px;
+    -moz-border-radius: 29px 29px 10px 10px;
+
+    box-shadow: 0px 3px 19px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 3px 19px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 19px 3px rgba(0,0,0,0.75);
+
     @include size (85%, null);
     margin-left: 7.5%;
 }
 
-.img-card{@include size(100%, 100%);}
+.img-card{@include size(100%, null);
+max-height: 716px;
+}
 
 .precio{font-weight: bold;}
 
@@ -63,5 +76,18 @@ footer{
 }
 
 .h1form{ font-family: 'Lora', serif; ;}
+
+.agendar {background-color: $color-nav-foot;
+        color: $color-white;
+        transition: 1s;
+        &:hover{
+            background-color: $color-background2;
+            color: white
+        }
+        &:active{ background-color: #144a6a !important;
+                color: $color-white !important;
+        }
+        
+}
 
 @import "_animations.scss";
