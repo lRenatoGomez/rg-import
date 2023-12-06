@@ -16,10 +16,14 @@ body{background-color: $color-background ;}
 }
 
 
-.raptor{align-items: $aling;}
 
 
-.navbar{margin-bottom: 1%;}
+.info-nosotros{ background-color: $color-background2;
+            color: white;
+}
+
+.nav{margin-bottom: 1%;
+}
 
 
 .infobarra{@include size (100%, 250px); }
@@ -61,6 +65,8 @@ footer{
     margin-left: 7.5%;
 }
 
+.imglocal{height: auto}
+
 .img-card{@include size(100%, null);
 max-height: 716px;
 }
@@ -71,7 +77,8 @@ max-height: 716px;
 
 .form{
     text-align: $aling;
-    background-color: #bae8e8;
+    background-color: $color-background2;
+    color: white;
 
 }
 

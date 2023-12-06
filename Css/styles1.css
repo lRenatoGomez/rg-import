@@ -13,11 +13,12 @@ body {
   color: white;
 }
 
-.raptor {
-  align-items: center;
+.info-nosotros {
+  background-color: #2c698d;
+  color: white;
 }
 
-.navbar {
+.nav {
   margin-bottom: 1%;
 }
 
@@ -64,6 +65,10 @@ footer {
   margin-left: 7.5%;
 }
 
+.imglocal {
+  height: auto;
+}
+
 .img-card {
   width: 100%;
   max-height: 716px;
@@ -80,7 +85,8 @@ footer {
 
 .form {
   text-align: center;
-  background-color: #bae8e8;
+  background-color: #2c698d;
+  color: white;
 }
 
 .h1form {

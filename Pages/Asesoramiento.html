@@ -3,6 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords"  content="venta, importacion, autos, camionetas, pickups, asesoramiento, rgimp, rgimportaciones, mantenimiento, inspecciones, garantía, comparacion, documentos" >
+        <meta name="description" content="Encuentra la tranquilidad al comprar un automóvil usado con nuestro asesoramiento experto. Nuestra web te guía paso a paso en el proceso de adquirir un vehículo de segunda mano, brindándote información valiosa sobre inspecciones, historial del vehículo y negociaciones." >    
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="../Css/styles1.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -10,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
-        <title>Asesoramiento</title>
+        <title>RGIMP - Asesoramiento</title>
     </head>
     <body class="container">
         <Header class=" row mb-3 align-items-end" style="padding: 0;">
@@ -38,10 +41,10 @@
             </div>
           </nav>
         
-    <Section class="container">
-    <div class="form" style="margin-top: 150px;">
+    <Section class="container justify-content-center">
+    <div class="form container  col-8" style="margin-top: 150px;">
         <h1 class="h1form">Contactanos!</h1>
-    <form action="form.php" method="post">
+    <form class="container" action="form.php" method="post">
         <P> Estado <select name="" id="" name="estado"></P>
             <option value="">Usado</option>
             <option value="">Nuevo 0km</option>
@@ -52,20 +55,21 @@
             <option value="Camionetas">Camionetas</option>
             <option value="Pickups">Pickups</option>
         </select>
-        <p><label for="">Nombre</label>
-        <input type="text" name="Nombre" id="nombre" placeholder="Nombre y Apellido"></p>
-        <p>Email de contacto <input type="text" placeholder="contacto@gmail.com"></p>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <p><label class="col-12 " for="">Nombre</label>
+        <input class="col-12 col-sm-10  col-md-6 col-xl-3" type="text" name="Nombre" id="nombre" placeholder="Nombre y Apellido"></p>
+        <p class="mb-0">Email</p>
+        <p>  <input class="col-12 col-sm-10  col-md-6 col-xl-3"  type="text" placeholder="contacto@gmail.com"></p>
+        <textarea class="col-12 col-sm-10  col-md-8 col-xl-9" name="" id=""  cols="" rows="4"></textarea>
     </form>
-    <Button>Enviar</Button>
+    <Button class="btn-agendar" style="width: 25%;">Enviar</Button>
     </div>
 
-    <article >
-        
-        <div style="text-align: center; font-size: 45px; margin-top: 70px;"><p>Nosotros</p></div>
-        <Div class=" row justify-content-center">
-        <img class="imglocal col-lg-8  col-sm-12" style="max-height: auto;" src="../Images/Local.jpg" alt="Local">
-            <div class="col-lg-4 col-sm-12"><P>
+    <article class="info-nosotros">
+        <div style="text-align: center; font-size: 45px; margin-top: 70px; margin-bottom: 0px;"><p><em>Nosotros</em></p></div>
+        <div class="row justify-content-center m-1">
+            <img class="imglocal col-lg-8 col-sm-12 mb-3" style="height: 100%;" src="../Images/Local.jpg" alt="Local">
+            <div class="col-lg-4 col-sm-12 ">
+                <p style="margin-bottom: 0;">
                     RG IMPORTACIONES es una empresa uruguaya
                     con más de 5 años en el mercado.
                     Su objetivo es brindar una solución práctica y conveniente a todos aquellos
@@ -75,31 +79,32 @@
                     satisfacción de nuestros clientes, a quienes
                     consideramos lo más importante. Escucharlos empáticamente es la clave,
                     ya que sus opiniones son nuestro estímulo para mejorar día a día Estamos orientados a la mejora continua de nuestros procesos
-                    </P>
-                </div>
-            </Div>
-        
-    </article>
-    </div>
-    </Section>
-    <Footer class=" row col-12" style="margin-top: 100px;">
-        <iframe class="col-8 m-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9264.702630533884!2d-55.98673410516805!3d-34.81683334201933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f89d7d5964de7%3A0x3dc52a0f01ec3913!2sCar%20One%20Center!5e0!3m2!1ses-419!2suy!4v1695601180296!5m2!1ses-419!2suy" width="" height="95%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <Div class=" row col-4 mb-2 p-0"> 
-            <Div class="col-12">
-                <p style="font-size: 23px;">Horarios</p>
-                Lun a Vier de 9 a 19hs. <br>
-                Sábados de 10 a 15hs.
-            </Div>
-            <div class="row">
-            <span style="font-size: 22px;">Nuestras redes</span>
-                <div style="margin-right: 0px;" class="row mt-1 gap-2 ">
-                <div style="margin-right: 2px;" class="col-2 col-sm-3"><a class="redes" href="https://www.facebook.com/CarOneUy"><i class="bi bi-facebook redes"></i></div></a>
-                <div class="col-2 col-sm-3"><a class="redes" href="https://www.instagram.com/caroneuy/"><i class="bi bi-instagram redes"></i></div></a>
-                <div class="col-2 col-sm-3"><a class="redes" href="https://www.linkedin.com/company/car-one/"><i class="bi bi-linkedin redes"></i></div></a>
-                </div>
+                </p>
             </div>
+        </div>
+    </article>    
+</Section>
+
+
+
+<Footer class=" row" style="margin-top: 100px; width: 100%;">
+    <iframe class="col-8 m-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9264.702630533884!2d-55.98673410516805!3d-34.81683334201933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f89d7d5964de7%3A0x3dc52a0f01ec3913!2sCar%20One%20Center!5e0!3m2!1ses-419!2suy!4v1695601180296!5m2!1ses-419!2suy" width="" height="95%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <Div class=" row col-4 mb-2 p-0"> 
+        <Div class="col-12">
+            <p style="font-size: 23px;">Horarios</p>
+            Lun a Vier de 9 a 19hs. <br>
+            Sábados de 10 a 15hs.
         </Div>
-    </Footer>
+        <div class="row">
+        <span style="font-size: 22px;">Nuestras redes</span>
+            <div style="margin-right: 0px;" class="row mt-1 gap-2 ">
+            <div style="margin-right: 2px;" class="col-2 col-sm-3"><a class="redes" href="https://www.facebook.com/renatobrunogomez" target="_blank"><i class="bi bi-facebook redes"></i></div></a>
+            <div class="col-1 col-sm-3"><a class="redes" href="https://www.instagram.com/renat0k_/" target="_blank" ><i class="bi bi-instagram redes"></i></div></a>
+            <div class="col-1 col-sm-3"><a class="redes" href="https://www.linkedin.com/in/renato-g%C3%B3mez-s%C3%A1nchez-bb48771b0/" target="_blank" ><i class="bi bi-linkedin redes"></i></div></a>
+            </div>
+        </div>
+    </Div>
+</Footer>
 
 
 
